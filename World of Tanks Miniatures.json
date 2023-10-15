@@ -1,0 +1,54 @@
+{
+  "gameSystem": {
+    "name": "World of Tanks Miniatures",
+    "id": "51c4-a0cc-d17b-1e94",
+    "authorContact": "reconspecialisttv@gmail.com",
+    "authorName": "Patrick Patrick",
+    "authorUrl": "reconspecialisttv@gmail.com",
+    "battleScribeVersion": 2.03,
+    "revision": 5,
+    "type": "gameSystem",
+    "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
+    "categoryEntries": [{"name": "Tanks", "id": "c50e-61af-2446-be9c", "hidden": false}],
+    "costTypes": [{"name": "pts", "id": "3c39-e72d-814c-d95e", "defaultCostLimit": -1, "hidden": false}],
+    "forceEntries": [
+      {
+        "name": "Platoon",
+        "id": "7253-52fa-2588-66bf",
+        "hidden": false,
+        "categoryLinks": [{"name": "Tanks", "id": "7565-2193-9605-d46b", "hidden": false, "primary": false, "targetId": "c50e-61af-2446-be9c"}]
+      }
+    ],
+    "profileTypes": [
+      {
+        "name": "Tank",
+        "id": "85e0-0ed1-3bc7-f314",
+        "characteristicTypes": [
+          {"name": "Firepower", "id": "b897-8eda-69fb-5976"},
+          {"name": "Survivability", "id": "3ad1-d67f-867f-b8d3"},
+          {"name": "Mobility", "id": "6cdd-1e26-6533-d04e"},
+          {"name": "Initiative", "id": "d714-1b14-ad79-eaa2"},
+          {"name": "Hit Points", "id": "cfb3-634e-3297-9f2e"},
+          {"name": "Type", "id": "8a22-e966-5551-829d"},
+          {"name": "Tier", "id": "4ff3-83a0-a830-f535"},
+          {"name": "Nationality", "id": "18c0-3016-3607-6aaf"}
+        ]
+      },
+      {"name": "Upgrade: Crew", "id": "4113-3131-ac4d-4172", "characteristicTypes": [{"name": "Ability", "id": "3bf1-8780-ecde-a191"}]},
+      {"name": "Upgrade: Module", "id": "6a14-be97-109d-957e", "characteristicTypes": [{"name": "Ability", "id": "9d48-3521-7475-ad05"}]},
+      {
+        "name": "Hit Points",
+        "id": "dac0-ea5a-2478-e6a4",
+        "characteristicTypes": [
+          {"name": "Red", "id": "5aea-aba5-33fd-a449"},
+          {"name": "Orange", "id": "a878-0b58-276c-d021"},
+          {"name": "Yellow", "id": "433e-cec8-c0d7-2628"},
+          {"name": "Green", "id": "34cc-7f69-8c55-9c3d"}
+        ]
+      },
+      {"name": "Upgrade: Ammo", "id": "cf4c-c1c0-f411-bdbe", "characteristicTypes": [{"name": "Ability", "id": "804d-13f2-a6cb-951f"}]},
+      {"name": "Upgrade: Consumables", "id": "5e3f-3611-adaa-2a4d", "characteristicTypes": [{"name": "Ability", "id": "69c6-a3a2-4a20-cb63"}]},
+      {"name": "Upgrade: Equipment", "id": "b78a-7d3b-9161-b656", "characteristicTypes": [{"name": "Ability", "id": "8be5-274d-3f4e-cc0f"}]}
+    ]
+  }
+}
